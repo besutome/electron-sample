@@ -4,7 +4,7 @@ var config = require('./package.json');
 packager({  
   dir: './',          // 対象
   out: './dist',      // 出力先
-  name: config.name,  // 名前
+  name: 'pre-menthas',  // 名前
   platform: 'darwin', // or win32
   arch: 'x64',        // 64bit
   version: '0.34.2',  // electron のバージョン

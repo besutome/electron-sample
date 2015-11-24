@@ -30,7 +30,7 @@ app.on('ready', function() {
 
   // デベロッパーツールを表示
   // 不要であればコメントアウト
-  mainWindow.toggleDevTools();
+  // mainWindow.toggleDevTools();
 
   // ウィンドウが閉じられたらアプリも終了
   mainWindow.on('closed', function() {
