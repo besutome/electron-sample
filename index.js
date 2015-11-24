@@ -5,7 +5,8 @@ var app = require('app');
 // ウィンドウを作成するモジュール
 var BrowserWindow = require('browser-window');  
 // 起動 URL
-var currentURL = 'file://' + __dirname + '/index.html';
+// var currentURL = 'file://' + __dirname + '/index.html';
+var currentURL = 'http://menthas.com/'
 
 // クラッシュレポート
 require('crash-reporter').start();
@@ -36,3 +37,4 @@ app.on('ready', function() {
     mainWindow = null;
   });
 });
+
