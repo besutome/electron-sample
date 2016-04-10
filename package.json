@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "electron-packager": "^5.1.1",
+    "electron-packager": "^6.0.2",
     "electron-prebuilt": "^0.34.2"
   },
   "scripts": {
